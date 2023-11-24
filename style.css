@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(124, 130, 159, 0.7),rgba(106, 119, 161, 0.7)),url("images/homebackground.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.readmore{
+    text-decoration: none;
+    color:#be9a65;
+}
+.readmore:hover{
+    cursor: pointer;
+    color:#b8a383;
+    transition: 0.5s;
+}
+.about{
+    min-height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(84, 108, 203, 0.7),rgba(186, 190, 202, 0.7)),url("images/aboutbackground.webp");
+    background-position: center;
+    background-size: cover;
+    height:fit-content ;
+}
+.faculty{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(58, 83, 186, 0.6),rgba(186, 190, 202, 0.6)),url("images/facultybackground1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.research{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(58, 83, 186, 0.7),rgba(186, 190, 202, 0.7)),url("images/researchbackground.jpg");
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 3% 7%;
+    justify-content: space-between;
+    align-items:center;
+
+}
+nav img{
+    width: 180px;
+    height: 50px;
+}
+
+.nav-links{
+    flex: 2;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#be9a65;
+    display: block;
+    margin: auto;
+    transition:0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+
+.aboutuslink{
+    text-decoration: none;
+    color: white;
+}
+.aboutuslink:hover{
+    cursor: pointer;
+    color: blue;
+    transition: 0.5s;
+}
+
+#footer{
+    background-color: blue,blue;
+}
