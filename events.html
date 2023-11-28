@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Science Department</title>
+    <link rel ="stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  </head>
+  <body>
+    <section class = "research">
+      <nav>
+          <a href=""><img src = "images/Logo.png"></a>
+          <div class= "nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="faculty.html">FACULTY</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-home" onclick="showMenu()"></i>
+      </nav>
+      <div class ="text-about">
+        <h1 style="font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Events</h1>
+        <p><a style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: medium;" class="aboutuslink" href="index.html">Home</a>
+          <span>---</span>
+          <a style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: medium;" class="aboutuslink" href="events.html">Events</a>
+        </p>
+
+      </section>
+      <section>
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 35px;">Upcoming events</h1>
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-bottom: 10px;">Sorry, there are no upcoming events.</p>
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 35px;">Past events</h1>
+      <img  class="eventsimg" src="images/events1.jpeg" style="height: 500px; width: 800px; padding-top: 15px;padding-bottom: 15px;">
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;font-size: larger;">Online Short Courses</p>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; font-size: larger;">20th August, 2020</p>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; font-size: larger; margin-bottom: 35px;">Registration Deadline:<br>17th September, 2021</p>
+
+
+      <img src="images/events2.jpg" class="eventsimg" style="height: 500px; width: 800px;">
+      <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; font-size: 30px;">Global CyberTech Workshop</h1>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger; text-align: center;">2nd & 3rd December, 2021</p>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger; text-align: center; margin-bottom: 20px;">Time: 8:30 am - 3:30 pm<br>
+        Venue: Computer Science Department - University of Ghana</p>
+
+        <img src="images/event3.jpeg" class="eventsimg" style="height: 500px; width: 800px;">
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; font-size: 30px; margin-bottom: 10px; margin-top: 10px; margin-bottom: 15px;">BECOMING A WORLD CLASS SOFTWARE ENGINEER</h1>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger; text-align: center;">20th August, 2020</p>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger; text-align: center;">Venue - Software Lab</p>
+      </section>
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+          navLinks.style.right="0";
+        }
+        function hideMenu(){
+          navLinks.style.right="-200px";
+        }
+      </script>
+  </body>
+  <a href = "style.css"></a>
+</html>

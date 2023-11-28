@@ -4,35 +4,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Computer Science Department</title>
     <link rel ="stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
   </head>
   <body>
     <section class = "header">
       <nav>
           <a href="index.html"><img src = "images/Logo.png"></a>
-          <div class= "nav-links">
+          <div class= "nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="faculty.html">FACULTY</a></li>
-            <li><a href="researchgroups.html">RESEARCH GROUPS</a></li>
+            <li><a href="events.html">EVENTS</a></li>
             <li><a href="about.html">ABOUT</a></li>
+            <li><a href= "short courses.html"></a></li>
           </ul>
         </div>
+        <i class="fa fa-home" onclick="showMenu()"></i>
       </nav>
 <div class ="text-box">
-  <h1>YOUR GATEWAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION</h1>
+  <h1>YOUR GATEWAY TO WORLD CLASS <br>COMPUTER SCIENCE EDUCATION</h1>
+  <div class="row">
+  <div class="course-col">
   <h3> Short courses</h3>
-  <p class="paragraphhome" href="https://dcs.ug.edu.gh/doctrate">Our eight week intesive certificate course is open to senior high graduates, tertiary students, school graduates, workers and the general public.</p>
-  <a class= "readmore" href="https://dcs.ug.edu.gh/doctrate">Read more</a>
+  <p >Our eight week intesive certificate course is open to senior high graduates, tertiary students, school graduates, workers and the  general public.</p>
+  <a class= "readmore" href="short courses.html">Read more</a></div>
+  <div class="course-col">
   <h3>Undergraduate programmes</h3>
-  <p class="paragraphhome" href="https://dcs.ug.edu.gh/doctrate">Open the door to sought-after technology careers with a world-class Bachelor of Computer Science degree.</p>
-  <a class= "readmore" href="https://dcs.ug.edu.gh/doctrate">Read more</a>
+  <p>Open the door to sought-after technology careers with a world-class Bachelor of Computer Science degree.</p>
+  <a class= "readmore" href="undergraduate.html">Read more</a></div>
+  <div class="course-col">
   <h3>MPhil and Msc programmes</h3>
-  <p class="paragraphhome" href="https://dcs.ug.edu.gh/doctrate">Embrace world class graduate education with unique blend of cutting-edge research and industry experience.</p>
-  <a class= "readmore" href="https://dcs.ug.edu.gh/doctrate">Read more</a>
+  <p>Embrace world class graduate education with unique blend of cutting-edge research and industry experience.</p>
+  <a class= "readmore" href="mphil.html">Read more</a></div>
+  <div class="course-col">
   <h3>PhD programmes</h3>
-  <p class="paragraphhome" href="https://dcs.ug.edu.gh/doctrate">Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research.</p>
-  <a class= "readmore" href="https://dcs.ug.edu.gh/doctrate">Read more</a>
+  <p>Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research.</p>
+  <a class= "readmore" href="Phd.html">Read more</a>
 </div>
-      </section>
+</div>
+</div>
+</section>
+
+<section class="courses">
+  <h1>Departmental events</h1>
+  <p>Programmes, seminars and events organized by the department</p> 
+  <a href="https://dcs.ug.edu.gh/events" style="font-size: large;">View upcoming and ongoing events</a>
+
+  <h1>Short Courses</h1>
+  <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.</p>
+  <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(31, 31, 135);font-size: large; padding-bottom: 100px;">Evening and Weekend Session Only</p>
+</section>
+<section class="campus">
+  <h1>Join our short course program</h1>
+  <p>To be able to take full advantage of the opportunities available to this technology driven era, it is important to acquire new skills. Skills in ICT that will springboard your career.</p>
+  <div class="row">
+    <div class="campus-col">
+  <h3>Expert Instructors</h3>
+  <p>Our instructors have years experience which presents students with a unique opportunity of learning from the best</p></div>
+  <div class="campus-col">
+  <h3>Certification</h3>
+  <p>You earn a certificate of completion from the department after completing and passing the prescribed exam.</p>
+</div>
+</div>
+<button class="registerbutton"><a href="https://forms.gle/SUov5KJPJx1cYUcB9">REGISTER</a></button>
+</section>
+
+<section class="mobiledev">
+  <div class="row">
+    <div class="campus-col">
+      <img src="images/mobile app development.jpg">
+ <a href="https://dcs.ug.edu.gh/short-courses"><h1>Mobile Application <br>Development</h1></a>
+  <p style="background-color: rgb(31, 31, 122); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-block: 60px;font-size: 19px; text-align: center;">We provide world class<br> technologies for Mobile Application <br> Development using the mobile-first <br>worklight by IBM</p></div>
+  <div class="campus-col">
+    <img src="images/webprogramming.jpg" style="width: 260px;">
+  <a href="https://dcs.ug.edu.gh/short-courses"><h1>Introduction to web <br> programming</h1></a>
+  <p style="background-color: rgb(31, 31, 122); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-block: 60px;font-size: 19px; text-align: center; padding-left: 15px; padding-right: 15px;">Understand the fundamentals<br> of web technologies and <br>create web-based <br>applications with lastest <br>technologies.</p></div>
+  <div class="campus-col">
+    <img src="images/ethical hacking image.jpg">
+  <a href="https://dcs.ug.edu.gh/short-courses"><h1>Information Security and <br> Ethical Hacking</h1></a>
+  <p style="background-color: rgb(31, 31, 122); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-block: 60px;font-size: 19px; text-align: center;">Learn the various techniques <br> used to secure a computer <br>system from attacks <br> through hacking.</p></div>
+  <div class="campus-col">
+    <img src="images/ccna image.jpg">
+  <a href="https://dcs.ug.edu.gh/short-courses"><h1>Computer Network <br>Fundamental <br>[CCNA]</h1></a>
+  <p style="background-color: rgb(31, 31, 122); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-block: 60px;font-size: 19px; text-align: center;">We provide quality training for <br>students to become Cisco Certified  <br> Network Associate (CCNA).</p></div>
+</div>
+</section>
+
+<section>
+  <div class="row">
+    <div class="footer-col">
+  <h1>Academics</h1>
+  <a href="https://dcs.ug.edu.gh/undergrad-course"><p>Undergraduate Courses</p></a>
+  <p><a href="https://dcs.ug.edu.gh/mphil-course">Graduate Courses (MPhil Computer Science)</a></p>
+  <p><a href="https://dcs.ug.edu.gh/msc-course">Graduate COurses (MSc Computer Science)</p>
+  <p><a href="https://dcs.ug.edu.gh/phd-course">Graduate Courses (PhD)</a></p>
+  <p><a href="https://www.ug.edu.gh/academics/calendar">Academic Calendar</a></p>
+  <p><a href="https://dcs.ug.edu.gh/img/_DEPARTMENT%20OF%20COMPUTER%20SCIENCE,%20UG%20-%20200%20&%20300.pdf">Level 200 & 300 Timetable</a></p>
+  <p><a href="https://dcs.ug.edu.gh/img/_Placements%20lvl200.pdf">Placements for Level 200 Students</a></p>
+  <p><a href="https://forms.gle/smoyM5M3HWaayagk7">Student Complaint Form</a></p>
+</div>
+<div class="footer-col">
+  <h1>Admissions</h1>
+  <p><a href="http://admission.ug.edu.gh/applying/undergraduate/overview">Undergraduate</p></a>
+ <a href="http://admission.ug.edu.gh/applying/postgraduate/overview"> <p>Graduate</p></a>
+  <a href="http://admission.ug.edu.gh/applying/international/overview"><p>International Students</p></a>
+  <a href="https://dcs.ug.edu.gh/entry"><p>Entry Requirements</p></a>
+  <a href="https://dcs.ug.edu.gh/contact"><p>Contact Us</p></a>
+</div>
+<div class="footer-col">
+  <h1>Research</h1>
+  <a href="https://dcs.ug.edu.gh/research-dcs"><p>Research at DCS</p></a>
+  <a href="https://dcs.ug.edu.gh/research-impact"><p>Research Impact</p></a>
+  <a href="http://balme.ug.edu.gh/"><p>Libraries</p></a>
+  </div>
+  <div class="footer-col">
+  <h1>About the Department</h1></a>
+  <a href="https://dcs.ug.edu.gh/about"><p>Introducing DCS</p></a>
+  <a href="https://dcs.ug.edu.gh/officehod"><p>Head of Department's office</p></a>
+  <a href="https://dcs.ug.edu.gh/faculty"><p>Faculty</p></a>
+  <a href="events.html"><p>Events</p></a>
+  </div>
+</div>
+</section>
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function hideMenu(){
+    navLinks.style.right="-200px";
+  }
+</script>
   </body>
 </html>
